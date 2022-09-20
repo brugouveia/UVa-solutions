@@ -1,6 +1,5 @@
 #include <iostream>
 #include <queue>
-
 using namespace std;
 
 bool vis[1001][1001];
