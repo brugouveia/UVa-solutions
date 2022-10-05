@@ -35,7 +35,7 @@ void BFS(){
 				cont++;
 				Using[{u, v}] = true;
 				if(!mat[u][v]){
-					 mat[u][v] = 1;
+					mat[u][v] = 1;
 					q.push({u, v});
 				}
 			}
