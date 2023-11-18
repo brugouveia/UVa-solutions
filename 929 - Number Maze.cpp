@@ -10,7 +10,7 @@ int x[4] = {1,-1, 0, 0};
 int y[4] = {0, 0,-1, 1};
 
 void dijkstra(){
-	// {{i,j}, dist[i][j]}
+	// {dist[i][j], {i,j}}
 	priority_queue<iii, vector<iii>, greater<iii> > pq;
 	pq.push({dist[0][0] = mat[0][0], {0,0}});
 	
